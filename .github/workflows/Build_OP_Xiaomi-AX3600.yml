@@ -179,7 +179,7 @@ jobs:
         echo "WEB登陆账户：root" >> release.txt
         echo "密码：password" >> release.txt
         echo "固件源码：https://github.com/coolsnowwolf/lede" >> release.txt
-        echo "固件内核版本：5.10" >> release.txt
+        echo "固件内核版本：5.15" >> release.txt
         echo "${{ env.useVersionInfo }}" >> release.txt
         echo "::set-output name=status::success"
     - name: Upload firmware to release
