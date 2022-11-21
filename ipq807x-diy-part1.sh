@@ -18,3 +18,5 @@
 echo 'src-git openclash https://github.com/vernesong/OpenClash.git' >>feeds.conf.default
 #主题列表
 echo 'src-git Rinze https://github.com/Lancet-z/luci-theme-Rinze.git' >>feeds.conf.default
+#netdata汉化版
+echo "src-git cups https://github.com/sirpdboy/luci-app-netdata" >> feeds.conf.default
