@@ -11,9 +11,10 @@
 #
 
 #添加主题
-cd lede/package/lean  
-rm -rf luci-theme-argon  
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git 
+# Add luci-theme-argon
+git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon
+git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config
+rm -rf ../lean/luci-theme-argon
 
 
 # Modify default IP
