@@ -22,3 +22,5 @@ echo 'src-git openclash https://github.com/vernesong/OpenClash.git' >>feeds.conf
 echo 'src-git Rinze https://github.com/Lancet-z/luci-theme-Rinze.git' >>feeds.conf.default
 #netdata汉化版
 echo "src-git cups https://github.com/sirpdboy/luci-app-netdata" >> feeds.conf.default
+#argon主题
+echo "src-git jerryk https://github.com/jerrykuku/openwrt-package" >> feeds.conf.default
