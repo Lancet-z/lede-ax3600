@@ -14,6 +14,8 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
+rm -rf feeds/luci/themesluci-theme-argon
+rm -rf feeds/luci/applications/luci-app-netdata
 #openclash
 echo 'src-git openclash https://github.com/vernesong/OpenClash.git' >>feeds.conf.default
 #主题列表
