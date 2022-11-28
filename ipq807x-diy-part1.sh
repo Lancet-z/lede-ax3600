@@ -16,8 +16,6 @@
 # Add a feed source
 
 #openclash
-echo 'src-git openclash https://github.com/vernesong/OpenClash.git' >>feeds.conf.default
-#主题列表
-echo 'src-git Rinze https://github.com/Lancet-z/luci-theme-Rinze.git' >>feeds.conf.default
+echo 'src-git-full openclash https://github.com/vernesong/OpenClash.git' >>feeds.conf.default
 #argon主题
-echo "src-git jerryk https://github.com/jerrykuku/openwrt-package" >> feeds.conf.default
+echo 'src-git-full jerryk https://github.com/jerrykuku/openwrt-package' >> feeds.conf.default
