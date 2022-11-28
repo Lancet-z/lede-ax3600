@@ -29,8 +29,8 @@ on:
   #  types: [started]
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/robimarko/openwrt
+  REPO_BRANCH: ipq807x-5.15-pr
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: AX3600.config
   DIY_P1_SH: ipq807x-diy-part1.sh
